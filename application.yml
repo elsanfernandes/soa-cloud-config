@@ -5,7 +5,7 @@ eureka:
     service-url:
       defaultZone : http://localhost:8761/eureka/
   instance:
-    hostname: 192.168.0.194
+    hostname: 127.0.0.1
     preferIpAddress: true
 microservice:
   payment-service:
